@@ -1,0 +1,122 @@
+hmtl, body {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  margin-top: 3em;
+}
+
+#content {
+  max-width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2em;
+}
+
+.box_header {
+  background: #990000;
+  color: white;
+  padding: 0.3em;
+  padding-left: 2em;
+  width: 100%;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0.3em 0.3em grey;
+          box-shadow: 0 0.3em 0.3em grey;
+}
+
+.box_header h2 {
+  margin-bottom: 0.3em;
+}
+
+.box_header h3 {
+  margin-top: 0.3em;
+}
+
+.box_content {
+  width: 97%;
+  background: whitesmoke;
+  padding: 1.5em;
+  margin: 0;
+  z-index: -1;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -webkit-box-shadow: 0 0.3em 0.3em;
+          box-shadow: 0 0.3em 0.3em;
+}
+
+.box_content #attention {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1em;
+}
+
+.box_content #attention div {
+  margin-left: 1em;
+  background: lightgrey;
+  padding: 0.4em;
+  border: 3px solid grey;
+}
+
+.box_content #attention div b {
+  font-size: 1.4em;
+}
+
+.box_data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .box_data {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.box_data .table_left {
+  font-size: 0.7em;
+  text-align: left;
+}
+
+.box_data .table_right {
+  text-align: center;
+  border: 2px solid black;
+}
+
+.box_data .table_right tr, .box_data .table_right td, .box_data .table_right th {
+  border: 1px solid grey;
+}
+/*# sourceMappingURL=schrumpfschlauch.css.map */
